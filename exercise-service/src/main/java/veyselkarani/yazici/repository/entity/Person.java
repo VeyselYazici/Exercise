@@ -19,7 +19,7 @@ import java.util.UUID;
 @Entity
 @Table(name = "persons")
 public class Person{
-
+    String deneme;
     @Id
     @GeneratedValue(generator = "guid")
     @Type(type = "uuid-char")
